@@ -46,9 +46,5 @@ export function usePokemonList(limit: number = 20) {
     };
   }, [limit]);
 
-  return {
-    pokemons,
-    loading,
-    error,
-  };
+  return { pokemons, loading, error,};
 }

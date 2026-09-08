@@ -46,9 +46,5 @@ export function usePokemonDetail(name: string) {
     };
   }, [name]);
 
-  return {
-    pokemon,
-    loading,
-    error,
-  };
+  return {pokemon, loading, error};
 }
