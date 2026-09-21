@@ -1,5 +1,5 @@
+import { useEffect, useState } from "react";
 import { PokemonListItem, PokemonListResponse } from "../types/pokemon";
-
 export function usePokemonList(limit: number = 20) {
   const [pokemons, setPokemons] = useState<PokemonListItem[]>([]);
   const [loading, setLoading] = useState<boolean>(true);

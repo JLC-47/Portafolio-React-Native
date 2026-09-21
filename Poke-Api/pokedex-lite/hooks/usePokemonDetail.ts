@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { PokemonDetail } from "../types/pokemon";
 
 export function usePokemonDetail(name: string) {
